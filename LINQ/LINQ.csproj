@@ -68,6 +68,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\DBBankBugs.cs" />
     <Compile Include="EntitiesMaping\BankBugMapping.cs" />
     <Compile Include="Entities\BankBug.cs" />
     <Compile Include="Program.cs" />
@@ -75,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bugs-2002.csv" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
