@@ -26,8 +26,5 @@ namespace LINQ.Entities
         public string DueDate { get; set; }
         public string Created { get; set; }
         public string QADueDate { get; set; }
-    }
-
-    
-    
+    }    
 }

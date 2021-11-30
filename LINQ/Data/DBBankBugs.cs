@@ -38,7 +38,7 @@ namespace LINQ.Data
         {
             foreach(var b in bugs)
             {
-                Console.WriteLine(b.Labels + "\t" + b.Priority);
+                Console.WriteLine( b.Priority + "\t" + b.Labels);
             }
         }
     }
