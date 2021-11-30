@@ -10,6 +10,9 @@ namespace LINQ
     {
         static void Main(string[] args)
         {
+            BugWorker bw = new BugWorker();
+
+            bw.Run();
         }
     }
 }

@@ -13,7 +13,7 @@ namespace LINQ.Data
 {
     class DBBankBugs
     {
-        string FileName = "bugs-2002.csv";
+        string FileName = @"D:\Step\С#\HW_C#_8_LINQ\LINQ\LINQ\bugs-2002.csv";
         private List<BankBug> bugs = new List<BankBug>();
 
         /// <summary>
@@ -31,6 +31,14 @@ namespace LINQ.Data
                 csv.Context.RegisterClassMap<BankBugMapping>();
                //чтение коллекции
                 bugs.AddRange(csv.GetRecords<BankBug>());
+            }
+        }
+
+        public void PrintAll()
+        {
+            foreach(var b in bugs)
+            {
+                Console.WriteLine(b.Labels + "\t" + b.Priority);
             }
         }
     }

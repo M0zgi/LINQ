@@ -68,6 +68,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BugWorker.cs" />
     <Compile Include="Data\DBBankBugs.cs" />
     <Compile Include="EntitiesMaping\BankBugMapping.cs" />
     <Compile Include="Entities\BankBug.cs" />
