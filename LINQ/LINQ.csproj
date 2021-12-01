@@ -72,6 +72,7 @@
     <Compile Include="Data\DBBankBugs.cs" />
     <Compile Include="EntitiesMaping\BankBugMapping.cs" />
     <Compile Include="Entities\BankBug.cs" />
+    <Compile Include="Entities\ErrorSum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -14,7 +14,22 @@ namespace LINQ
         public void Run()
         {
             bankBugs.LoadFromFile();
-            bankBugs.PrintAll();
+
+            bankBugs.DicTeamsKey();
+
+            bankBugs.BuildReport();
+
+            bankBugs.MakeReportDictionary();
+
+            bankBugs.PrintReport();
+
+            Console.WriteLine(new string ('-', 99));
+
+            bankBugs.PrintByError();
+
+
+            // bankBugs.InDic();
+            // bankBugs.PrintAllb();
         }
     }
 }
