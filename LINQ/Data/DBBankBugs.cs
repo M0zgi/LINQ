@@ -118,8 +118,7 @@ namespace LINQ.Data
 
                 foreach (var innerKvp in innerDict)
                 {
-                    Console.WriteLine($"{kvp.Key.PadRight(45)} | {innerKvp.Key.PadRight(23)} | {innerKvp.Value}");
-                   
+                    Console.WriteLine($"{kvp.Key.PadRight(45)} | {innerKvp.Key.PadRight(23)} | {innerKvp.Value}");                   
                 }
             } 
         }
@@ -142,7 +141,6 @@ namespace LINQ.Data
 
                 Console.WriteLine($"Общее количество ошибок: {total}");
                 Console.WriteLine(new string('-', 99));
-
             }
         }
     }

@@ -26,10 +26,6 @@ namespace LINQ
             Console.WriteLine(new string ('-', 99));
 
             bankBugs.PrintByError();
-
-
-            // bankBugs.InDic();
-            // bankBugs.PrintAllb();
         }
     }
 }
