@@ -81,6 +81,9 @@
     <None Include="bugs-2002.csv" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Screen\2021-12-01_18-24-52.png" />
+    <Content Include="Screen\2021-12-01_18-36-49.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
